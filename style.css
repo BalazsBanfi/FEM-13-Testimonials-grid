@@ -33,7 +33,7 @@ main {
   background: var(--lGrayishBlue);
   padding: 2rem 1rem;
   display: grid;
-  grid-template: repeat(5, min-content) / 260px;
+  grid-template: repeat(5, min-content) / 330px;
   justify-content: center;
   gap: 1.5rem;
 }
