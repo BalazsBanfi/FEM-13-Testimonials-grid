@@ -23,7 +23,7 @@ body {
   background-color: #ddd;
   text-align: left;
   font-size: 13px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   display: grid;
   place-items: center;
 }
@@ -34,15 +34,16 @@ main {
   background: white;
   padding: 4rem 1rem;
   display: grid;
-  grid-template: repeat(5, 1fr) / 1fr;
+  grid-template: repeat(5, min-content) / 1fr;
   justify-items: center;
   align-items: center;
   gap: 2rem;
 }
 
-/******************
-***Title section***
-*******************/
+/*******************
+***Daniel section***
+********************/
+
 .title {
   width: clamp(343px, 70%, 530px);
   color: var(--vdBlue);
