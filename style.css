@@ -9,7 +9,6 @@
 }
 
 * {
-  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -66,17 +65,16 @@ main {
   margin-bottom: 1.125rem;
 }
 
-.card h1, .card p {
+.card h1,
+.card p {
   font-size: 0.8rem;
 }
 
 .name > p {
   opacity: 0.5;
-  /* font-size: 0.85rem; */
 }
 
 .card > p {
-  /* font-size: 0.875rem; */
   line-height: 1.35;
   opacity: 0.7;
 }
@@ -86,7 +84,10 @@ main {
 *********************/
 
 .daniel {
-  background: var(--modViolet);
+  background: url("./images/bg-pattern-quotation.svg") no-repeat,
+    var(--modViolet);
+  background-size: auto;
+  background-position: 346px 0px;
   color: var(--white);
 }
 
